@@ -6,14 +6,22 @@ export const PROJECTS: readonly Project[] = [
     kind: "client",
     title: "Eco Meister Haus",
     summary:
-      "Сайт строительной компании (SIP-дома, Берлин и Бранденбург) с лид-формой и ИИ-консультантом.",
-    stack: [], 
+      "Сайт строительной компании (SIP-дома, Берлин и Бранденбург) с ИИ-консультантом.",
+    // role: "Full-stack разработка",   // ← заполните
+    stack: ["HTML5", "CSS3", "JavaScript"], // ← заполните
     highlights: [
       "Мультиязычность: DE / RO / EN / RU",
       "SEO: canonical, Open Graph, Twitter Cards",
       "Юридические страницы под немецкий рынок",
       "Встроенный ИИ-консультант по вопросам строительства",
     ],
+    // image: { src: "/projects/eco-meister-haus.webp", alt: "Главная страница Eco Meister Haus", width: 1600, height: 1000 },
+    caseStudy: {
+      // problem: "…",   // что нужно было бизнесу
+      solution:
+        "Многостраничный сайт на четырёх языках с SEO-разметкой, юридическими страницами под немецкий рынок и встроенным ИИ-консультантом по вопросам строительства.",
+      // result: "…",    // метрики, отзыв, факты
+    },
     links: { demo: "https://ecomeisterhaus.de/" },
     featured: true,
   },
@@ -21,8 +29,8 @@ export const PROJECTS: readonly Project[] = [
     slug: "bee-voyage",
     kind: "personal",
     title: "Bee Voyage",
-    summary: "", 
-    stack: [],
+    summary: "", // ← заполните
+    stack: ["React", "Tailwind CSS"],
     links: { demo: "https://bee-voyage.vercel.app/" },
     featured: true,
   },
@@ -31,8 +39,16 @@ export const PROJECTS: readonly Project[] = [
     kind: "experiment",
     title: "Snake",
     summary: "Классическая игра в браузере со счётом и рекордом.",
-    stack: [],
+    stack: ["JavaScript", "HTML5", "CSS3"],
     links: { demo: "https://snakegame-lyart-five.vercel.app/" },
     featured: false,
   },
-] as const;
+];
+
+export function getProject(slug: string): Project | undefined {
+  return PROJECTS.find((project) => project.slug === slug);
+}
+
+export function getCaseStudyProjects(): Project[] {
+  return PROJECTS.filter((project) => project.caseStudy);
+}

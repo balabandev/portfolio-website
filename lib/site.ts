@@ -1,8 +1,8 @@
 export const SITE = {
-  name: "Balaban Artiom",
+  name: "Балабан Артем",
   role: "Full-Stack Developer",
-  tagline: "Build fast and reliable web applications: from interfaces to databases.",
-  description: "Portfolio of a full-stack developer: projects, stack and contact information.",
+  tagline: "Создаю быстрые и надежные веб-приложения: от интерфейсов до баз данных.",
+  description: "Портфолио full-stack-разработчика: проекты, стек технологий и контактная информация.",
   url: "https://your-domain.com",
   lang: "en",
   availableForWork: true,
@@ -10,7 +10,7 @@ export const SITE = {
   github: "https://github.com/balabandev",
   telegram: "https://t.me/@bxlxbxn",
   nav: [
-    { href: "/", label: "Main" },
-    { href: "/projects", label: "Projects" },
+    { href: "/", label: "Главная" },
+    { href: "/projects", label: "Проекты" },
   ],
 } as const;
