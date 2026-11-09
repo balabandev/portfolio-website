@@ -1,0 +1,14 @@
+{
+  "Meta": {
+    "title": "Artyom Balaban — Dezvoltator full-stack",
+    "description": "Dezvoltator full-stack. Creez produse web rapide și fiabile cu React, Next.js, Node.js și Laravel."
+  },
+  "Nav": {
+    "projects": "Proiecte",
+    "stack": "Tehnologii",
+    "about": "Despre mine",
+    "experience": "Experiență",
+    "services": "Servicii",
+    "contact": "Contact"
+  }
+}

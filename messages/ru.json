@@ -1,0 +1,14 @@
+{
+  "Meta": {
+    "title": "Artyom Balaban — Fullstack-разработчик",
+    "description": "Fullstack-разработчик. Создаю быстрые и надёжные веб-продукты на React, Next.js, Node.js и Laravel."
+  },
+  "Nav": {
+    "projects": "Проекты",
+    "stack": "Стек",
+    "about": "Обо мне",
+    "experience": "Опыт",
+    "services": "Услуги",
+    "contact": "Контакты"
+  }
+}
