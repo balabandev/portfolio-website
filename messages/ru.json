@@ -9,6 +9,13 @@
     "about": "Обо мне",
     "experience": "Опыт",
     "services": "Услуги",
-    "contact": "Контакты"
+    "contact": "Контакты",
+    "language": "Язык",
+    "openMenu": "Открыть меню",
+    "closeMenu": "Закрыть меню"
+  },
+  "Footer": {
+    "rights": "Все права защищены.",
+    "built": "Дизайн и разработка: Next.js и Tailwind CSS."
   }
 }

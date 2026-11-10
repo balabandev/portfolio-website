@@ -9,6 +9,13 @@
     "about": "Despre mine",
     "experience": "Experiență",
     "services": "Servicii",
-    "contact": "Contact"
+    "contact": "Contact",
+    "language": "Limbă",
+    "openMenu": "Deschide meniul",
+    "closeMenu": "Închide meniul"
+  },
+  "Footer": {
+    "rights": "Toate drepturile rezervate.",
+    "built": "Proiectat și construit cu Next.js și Tailwind CSS."
   }
 }

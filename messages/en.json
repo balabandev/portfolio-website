@@ -9,6 +9,13 @@
     "about": "About",
     "experience": "Experience",
     "services": "Services",
-    "contact": "Contact"
+    "contact": "Contact",
+    "language": "Language",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu"
+  },
+  "Footer": {
+    "rights": "All rights reserved.",
+    "built": "Designed and built with Next.js & Tailwind CSS."
   }
 }
