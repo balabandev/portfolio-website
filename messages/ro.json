@@ -15,7 +15,14 @@
     "closeMenu": "Închide meniul"
   },
   "Footer": {
-    "rights": "Toate drepturile rezervate.",
-    "built": "Proiectat și construit cu Next.js și Tailwind CSS."
+    "rights": "Toate drepturile rezervate."
+  },
+    "Hero": {
+    "status": "Disponibil pentru proiecte · Freelance și angajare",
+    "title": "Dezvoltator full-stack care transformă ideile în <accent>produse web rapide și fiabile</accent>.",
+    "subtitle": "De la baza de date până la pixel: proiectez și livrez aplicații cu React, Next.js, Node.js și Laravel, pe care utilizatorii le apreciază, iar afacerile le pot scala.",
+    "ctaProjects": "Vezi proiectele",
+    "ctaContact": "Scrie-mi",
+    "experience": "mai mult de 4 ani de experiență"
   }
 }

@@ -13,7 +13,6 @@ export async function Footer() {
           <p className="text-sm text-muted">
             © {year} {siteConfig.name}. {t("rights")}
           </p>
-          <p className="font-mono text-xs text-muted/70">{t("built")}</p>
         </div>
 
         <ul className="flex flex-wrap gap-x-5 gap-y-2 text-sm">

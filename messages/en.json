@@ -15,7 +15,14 @@
     "closeMenu": "Close menu"
   },
   "Footer": {
-    "rights": "All rights reserved.",
-    "built": "Designed and built with Next.js & Tailwind CSS."
+    "rights": "All rights reserved."
+  },
+  "Hero": {
+    "status": "Available for work · Freelance & full-time",
+    "title": "Full-stack developer who turns ideas into <accent>fast, reliable web products</accent>.",
+    "subtitle": "From database to pixel — I build and ship apps with React, Next.js, Node.js and Laravel that users enjoy and businesses can scale.",
+    "ctaProjects": "View projects",
+    "ctaContact": "Get in touch",
+    "experience": "more than 4 years of experience"
   }
 }
