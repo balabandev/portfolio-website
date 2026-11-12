@@ -1,37 +1,54 @@
 @import "tailwindcss";
 
-:root {
-  --background: #0a0a0b;
-  --foreground: #fafafa;
-  --muted: #a1a1aa;
-  --surface: #111114;
-  --surface-hover: #17171b;
-  --border: rgb(255 255 255 / 0.08);
-  --accent: #6366f1;
-  --accent-soft: rgb(99 102 241 / 0.15);
+@theme static {
+  --color-bg: #0c0d0f;
+  --color-surface: #131518;
+  --color-surface-2: #1a1d21;
+  --color-line: #24282d;
+  --color-line-strong: #343a42;
+
+  --color-fg: #ecedee;
+  --color-muted: #9aa0a6;
+  --color-faint: #6b7178;
+
+  --color-accent: #e8a838;
+  --color-accent-hover: #f2ba55;
+  --color-accent-fg: #14110a;
+
+  --radius-sm: 4px;
+  --radius-md: 6px;
+  --radius-lg: 10px;
 }
 
+/* Шрифты подключим в layout (Блок 2) через next/font */
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --color-muted: var(--muted);
-  --color-surface: var(--surface);
-  --color-surface-hover: var(--surface-hover);
-  --color-border: var(--border);
-  --color-accent: var(--accent);
-  --color-accent-soft: var(--accent-soft);
+  --font-sans: var(--font-manrope), ui-sans-serif, system-ui, sans-serif;
+  --font-mono: var(--font-jetbrains), ui-monospace, SFMono-Regular, monospace;
+}
 
-   --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
-  --font-mono: var(--font-jetbrains), ui-monospace, monospace;
+/* Единая ширина контента */
+@utility wrap {
+  margin-inline: auto;
+  width: 100%;
+  max-width: 68rem;
+  padding-inline: 1.25rem;
+
+  @media (min-width: 40rem) {
+    padding-inline: 2rem;
+  }
+}
+
+/* Мелкие моно-метки: годы, стек, статусы */
+@utility eyebrow {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  line-height: 1;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--color-muted);
 }
 
 @layer base {
-  *,
-  ::after,
-  ::before {
-    border-color: var(--border);
-  }
-
   html {
     color-scheme: dark;
     scroll-behavior: smooth;
@@ -39,36 +56,33 @@
   }
 
   body {
-    background: var(--background);
-    color: var(--foreground);
+    background: var(--color-bg);
+    color: var(--color-fg);
     font-family: var(--font-sans);
+    line-height: 1.6;
     -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
   }
 
   ::selection {
-    background: var(--accent);
-    color: #fff;
+    background: color-mix(in srgb, var(--color-accent) 35%, transparent);
   }
 
   :focus-visible {
-    outline: 2px solid var(--accent);
-    outline-offset: 2px;
+    outline: 2px solid var(--color-accent);
+    outline-offset: 3px;
+    border-radius: 2px;
   }
-}
 
-@utility container-page {
-  width: 100%;
-  max-width: 72rem;
-  margin-inline: auto;
-  padding-inline: 1.25rem;
-
-  @media (min-width: 640px) {
-    padding-inline: 2rem;
-  }
-}
-
-@media (prefers-reduced-motion: reduce) {
-  html {
-    scroll-behavior: auto;
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      transition-duration: 0.01ms !important;
+    }
   }
 }
