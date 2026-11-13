@@ -4,8 +4,13 @@
     "description": "Full-stack developer building fast, reliable web products with React, PHP and Laravel."
   },
   "Nav": {
-    "home": "Home",
-    "projects": "Projects",
-    "contact": "Contact"
-  }
+  "home": "Home",
+  "projects": "Projects",
+  "contact": "Contact",
+  "menu": "Menu",
+  "skip": "Skip to content"
+},
+"Footer": {
+  "rights": "All rights reserved."
+}
 }

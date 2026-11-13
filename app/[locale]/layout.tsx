@@ -6,6 +6,8 @@ import { getTranslations, setRequestLocale } from "next-intl/server";
 import { routing } from "@/i18n/routing";
 import { site } from "@/data/site";
 import "../globals.css";
+import { Header } from "@/components/layout/Header";
+import { Footer } from "@/components/layout/Footer";
 
 const manrope = Manrope({
   subsets: ["latin", "latin-ext", "cyrillic"],
@@ -49,14 +51,25 @@ export default async function LocaleLayout({ children, params }: Props) {
   if (!hasLocale(routing.locales, locale)) notFound();
   setRequestLocale(locale);
 
+  const tNav = await getTranslations({ locale, namespace: "Nav" });
+
   return (
-    <html
-      lang={locale}
-      className={`${manrope.variable} ${jetbrains.variable}`}
-    >
-      <body>
-        <NextIntlClientProvider>{children}</NextIntlClientProvider>
-      </body>
-    </html>
-  );
+  <html lang={locale} className={`${manrope.variable} ${jetbrains.variable}`}>
+    <body className="flex min-h-dvh flex-col">
+      <NextIntlClientProvider>
+        <a
+          href="#main"
+          className="sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-[60] focus:rounded-md focus:bg-accent focus:px-4 focus:py-2 focus:text-sm focus:font-medium focus:text-accent-fg"
+        >
+          {tNav("skip")}
+        </a>
+        <Header />
+        <main id="main" className="flex-1">
+          {children}
+        </main>
+        <Footer />
+      </NextIntlClientProvider>
+    </body>
+  </html>
+);
 }

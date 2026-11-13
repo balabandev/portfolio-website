@@ -4,8 +4,13 @@
     "description": "Fullstack-разработчик: создаю быстрые и надёжные веб-продукты на React, Node.js и Laravel."
   },
   "Nav": {
-    "home": "Главная",
-    "projects": "Проекты",
-    "contact": "Контакты"
-  }
+  "home": "Главная",
+  "projects": "Проекты",
+  "contact": "Контакты",
+  "menu": "Меню",
+  "skip": "К содержимому"
+},
+"Footer": {
+  "rights": "Все права защищены."
+}
 }

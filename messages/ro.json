@@ -4,8 +4,13 @@
     "description": "Dezvoltator full-stack care creează produse web rapide și fiabile cu React, PHP și Laravel."
   },
   "Nav": {
-    "home": "Acasă",
-    "projects": "Proiecte",
-    "contact": "Contact"
-  }
+  "home": "Acasă",
+  "projects": "Proiecte",
+  "contact": "Contact",
+  "menu": "Meniu",
+  "skip": "Salt la conținut"
+},
+"Footer": {
+  "rights": "Toate drepturile rezervate."
+}
 }
