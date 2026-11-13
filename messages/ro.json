@@ -1,0 +1,11 @@
+{
+  "Meta": {
+    "title": "Dezvoltator full-stack",
+    "description": "Dezvoltator full-stack care creează produse web rapide și fiabile cu React, PHP și Laravel."
+  },
+  "Nav": {
+    "home": "Acasă",
+    "projects": "Proiecte",
+    "contact": "Contact"
+  }
+}

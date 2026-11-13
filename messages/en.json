@@ -1,0 +1,11 @@
+{
+  "Meta": {
+    "title": "Full-stack developer",
+    "description": "Full-stack developer building fast, reliable web products with React, PHP and Laravel."
+  },
+  "Nav": {
+    "home": "Home",
+    "projects": "Projects",
+    "contact": "Contact"
+  }
+}

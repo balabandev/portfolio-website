@@ -1,0 +1,11 @@
+{
+  "Meta": {
+    "title": "Fullstack-разработчик",
+    "description": "Fullstack-разработчик: создаю быстрые и надёжные веб-продукты на React, Node.js и Laravel."
+  },
+  "Nav": {
+    "home": "Главная",
+    "projects": "Проекты",
+    "contact": "Контакты"
+  }
+}
