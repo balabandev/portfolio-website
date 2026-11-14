@@ -10,6 +10,18 @@
   "menu": "Meniu",
   "skip": "Salt la conținut"
 },
+"Hero": {
+  "status": "Disponibil pentru proiecte — full-time, Chișinău, Moldova și freelance",
+  "title": "Dezvoltator full-stack care transformă ideile în produse web <accent>rapide și fiabile</accent>.",
+  "lead": "De la baza de date până la pixel — proiectez și livrez aplicații cu React, Node.js și Laravel, pe care utilizatorii le apreciază, iar afacerile le pot scala.",
+  "projects": "Vezi proiectele",
+  "contact": "Contactează-mă",
+  "roleLabel": "Rol",
+  "roleValue": "Dezvoltator full-stack",
+  "expLabel": "Experiență",
+  "expValue": "4+ ani",
+  "dbLabel": "Baze de date"
+},
 "Footer": {
   "rights": "Toate drepturile rezervate."
 }

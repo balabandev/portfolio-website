@@ -10,6 +10,18 @@
   "menu": "Menu",
   "skip": "Skip to content"
 },
+"Hero": {
+  "status": "Available for work — full-time, Chișinău, Moldova & freelance",
+  "title": "Full-stack developer who turns ideas into <accent>fast, reliable</accent> web products.",
+  "lead": "From database to pixel — I build and ship React, Node.js and Laravel apps that users enjoy and businesses can scale.",
+  "projects": "View projects",
+  "contact": "Get in touch",
+  "roleLabel": "Role",
+  "roleValue": "Full-stack developer",
+  "expLabel": "Experience",
+  "expValue": "4+ years",
+  "dbLabel": "Databases"
+},
 "Footer": {
   "rights": "All rights reserved."
 }

@@ -6,6 +6,7 @@
   --color-surface-2: #1a1d21;
   --color-line: #24282d;
   --color-line-strong: #343a42;
+  --color-ok: #5fcf8a;
 
   --color-fg: #ecedee;
   --color-muted: #9aa0a6;
@@ -20,13 +21,11 @@
   --radius-lg: 10px;
 }
 
-/* Шрифты подключим в layout (Блок 2) через next/font */
 @theme inline {
   --font-sans: var(--font-manrope), ui-sans-serif, system-ui, sans-serif;
   --font-mono: var(--font-jetbrains), ui-monospace, SFMono-Regular, monospace;
 }
 
-/* Единая ширина контента */
 @utility wrap {
   margin-inline: auto;
   width: 100%;
@@ -38,7 +37,6 @@
   }
 }
 
-/* Мелкие моно-метки: годы, стек, статусы */
 @utility eyebrow {
   font-family: var(--font-mono);
   font-size: 0.75rem;
