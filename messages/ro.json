@@ -24,5 +24,37 @@
 },
 "Footer": {
   "rights": "Toate drepturile rezervate."
+},
+"Projects": {
+  "label": "Proiecte",
+  "title": "Lucrări selectate",
+  "all": "Toate proiectele",
+  "visit": "Deschide {name} într-o filă nouă",
+  "roleLabel": "Rol",
+  "kind": {
+    "freelance": "Freelance",
+    "company": "WebIT",
+    "personal": "Proiect personal"
+  },
+  "items": {
+    "eco-meister-haus": {
+      "summary": "Site pentru o companie de construcții din Berlin, specializată în case SIP, în patru limbi (DE, RO, EN, RU), cu pagini de servicii și consultant AI pentru vizitatori.",
+      "role": "Dezvoltare individuală"
+    },
+    "bee-voyage": {
+      "summary": "Aplicație React multilingvă pentru contul de Instagram al unei agenții de turism din Chișinău: catalog de tururi, pagină „Despre noi” și formular de contact în RU, EN și RO, cu detectarea automată a limbii."
+    },
+    "sidal-grup": {
+      "summary": "Site corporativ al unei companii de distribuție din Moldova, în română, rusă și engleză.",
+      "role": "Dezvoltare backend, coordonarea proiectului"
+    },
+    "elitgran": {
+      "summary": "Catalog și liste de prețuri pentru monumente funerare din granit în Chișinău, în română și rusă.",
+      "role": "Dezvoltare backend, coordonarea proiectului"
+    },
+    "snake": {
+      "summary": "Joc Snake în browser, cu scor și record."
+    }
+  }
 }
 }

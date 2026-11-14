@@ -24,5 +24,37 @@
 },
 "Footer": {
   "rights": "All rights reserved."
+},
+"Projects": {
+  "label": "Projects",
+  "title": "Selected work",
+  "all": "All projects",
+  "visit": "Open {name} in a new tab",
+  "roleLabel": "Role",
+  "kind": {
+    "freelance": "Freelance",
+    "company": "WebIT",
+    "personal": "Personal project"
+  },
+  "items": {
+    "eco-meister-haus": {
+      "summary": "Website for a SIP-house builder in Berlin in four languages (DE, RO, EN, RU), with service pages and an AI consultant for visitors.",
+      "role": "Solo development"
+    },
+    "bee-voyage": {
+      "summary": "Multilingual React app for a Chișinău travel agency's Instagram account: tour catalog, about page and contact form in RU, EN and RO, with automatic language detection."
+    },
+    "sidal-grup": {
+      "summary": "Corporate website of a distribution company in Moldova in Romanian, Russian and English.",
+      "role": "Backend development, project supervision"
+    },
+    "elitgran": {
+      "summary": "Catalog and price lists for granite memorials in Chișinău, in Romanian and Russian.",
+      "role": "Backend development, project supervision"
+    },
+    "snake": {
+      "summary": "Browser Snake game with score and high-score tracking."
+    }
+  }
 }
 }
