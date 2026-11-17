@@ -20,7 +20,8 @@
   "roleValue": "Full-stack developer",
   "expLabel": "Experience",
   "expValue": "4+ years",
-  "dbLabel": "Databases"
+  "dbLabel": "Databases",
+  "cv": "Download CV"
 },
 "Footer": {
   "rights": "All rights reserved."

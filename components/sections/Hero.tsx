@@ -1,9 +1,11 @@
-import { ArrowRight } from "lucide-react";
-import { getTranslations } from "next-intl/server";
+import { ArrowRight, Download } from "lucide-react";
+import { getLocale, getTranslations } from "next-intl/server";
 import { ButtonLink } from "@/components/ui/Button";
+import { cvHref } from "@/data/site";
 
 export async function Hero() {
   const t = await getTranslations("Hero");
+  const locale = await getLocale();
 
   const spec = [
     { label: t("roleLabel"), value: t("roleValue") },
@@ -37,14 +39,25 @@ export async function Hero() {
             {t("lead")}
           </p>
 
-          <div className="mt-10 flex flex-wrap gap-3">
+          <div className="mt-10 flex flex-wrap items-center gap-3">
             <ButtonLink href="/projects">
               {t("projects")}
               <ArrowRight size={16} aria-hidden />
             </ButtonLink>
+
             <ButtonLink href="/contact" variant="secondary">
               {t("contact")}
             </ButtonLink>
+
+            <a
+              href={cvHref(locale)}
+              download
+              className="inline-flex h-11 items-center gap-2 rounded-md px-3 text-sm text-muted transition-colors hover:text-fg"
+            >
+              <Download size={16} aria-hidden />
+              {t("cv")}
+              <span className="eyebrow !text-faint">PDF</span>
+            </a>
           </div>
         </div>
 

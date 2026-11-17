@@ -7,6 +7,7 @@ export type Project = {
   kind?: ProjectKind;
   stack: string[];
   featured: boolean;
+  /** Путь внутри /public, например "/projects/eco-meister-haus.webp" */
   image?: string;
 };
 
@@ -16,17 +17,14 @@ export const projects: Project[] = [
     name: "Eco Meister Haus",
     url: "https://ecomeisterhaus.de",
     kind: "freelance",
-    stack: ["HTML5", 
-        "Tailwind CSS 4", 
-        "JavaScript"
-    ],
+    stack: ["HTML5", "Tailwind CSS", "JavaScript"],
     featured: true,
   },
   {
     slug: "bee-voyage",
     name: "Bee Voyage",
     url: "https://bee-voyage.vercel.app",
-    kind: "personal",
+    // kind: TODO (freelance или personal)
     stack: [
       "React 19",
       "Vite",
@@ -42,12 +40,7 @@ export const projects: Project[] = [
     name: "Sidal Grup",
     url: "https://www.sidalgrup.md",
     kind: "company",
-    stack: ["HTML5", 
-        "Tailwind CSS 4", 
-        "JavaScript",
-        "PHP",
-        "Laravel 10"
-    ],
+    stack: ["PHP", "Laravel", "HTML5", "CSS3", "JavaScript"],
     featured: true,
   },
   {
@@ -55,12 +48,7 @@ export const projects: Project[] = [
     name: "Elitgran",
     url: "https://www.elitgran.md",
     kind: "company",
-    stack: ["HTML5", 
-        "Tailwind CSS 4", 
-        "JavaScript",
-        "PHP",
-        "Laravel 10"
-    ],
+    stack: ["PHP", "Laravel", "HTML5", "Tailwind CSS", "JavaScript"],
     featured: false,
   },
   {
@@ -68,10 +56,7 @@ export const projects: Project[] = [
     name: "Snake",
     url: "https://snakegame-lyart-five.vercel.app",
     kind: "personal",
-    stack: ["HTML5", 
-        "CSS3", 
-        "JavaScript"
-    ],
+    stack: [], // TODO
     featured: false,
   },
 ];

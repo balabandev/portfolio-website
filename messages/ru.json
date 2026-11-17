@@ -20,7 +20,8 @@
   "roleValue": "Fullstack-разработчик",
   "expLabel": "Опыт",
   "expValue": "более 4 лет",
-  "dbLabel": "Базы данных"
+  "dbLabel": "Базы данных",
+  "cv": "Скачать резюме"
 },
 "Footer": {
   "rights": "Все права защищены."
