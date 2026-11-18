@@ -24,7 +24,7 @@ export const projects: Project[] = [
     slug: "bee-voyage",
     name: "Bee Voyage",
     url: "https://bee-voyage.vercel.app",
-    // kind: TODO (freelance или personal)
+    kind: "personal",
     stack: [
       "React 19",
       "Vite",

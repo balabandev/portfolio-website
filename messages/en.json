@@ -19,7 +19,7 @@
   "roleLabel": "Role",
   "roleValue": "Full-stack developer",
   "expLabel": "Experience",
-  "expValue": "4+ years",
+  "expValue": "Since 2022",
   "dbLabel": "Databases",
   "cv": "Download CV"
 },
@@ -43,7 +43,8 @@
       "role": "Solo development"
     },
     "bee-voyage": {
-      "summary": "Multilingual React app for a Chișinău travel agency's Instagram account: tour catalog, about page and contact form in RU, EN and RO, with automatic language detection."
+      "summary": "Concept website for the Instagram travel agency @bee.voyage, built as a proposal: tour catalog, about page and contact form in RU, EN and RO with automatic language detection.",
+      "role": "Solo development"
     },
     "sidal-grup": {
       "summary": "Corporate website of a distribution company in Moldova in Romanian, Russian and English.",
@@ -55,6 +56,57 @@
     },
     "snake": {
       "summary": "Browser Snake game with score and high-score tracking."
+    }
+  }
+},
+"Stack": {
+  "label": "Stack",
+  "title": "Technologies I work with",
+  "groups": {
+    "frontend": "Frontend",
+    "backend": "Backend",
+    "databases": "Databases",
+    "stacks": "Stacks"
+  }
+},
+"About": {
+  "label": "About",
+  "title": "About me",
+  "p1": "I got into IT in 2022 and moved into full-stack development in 2024, when I started a Full-Stack Developer course and took my first freelance projects. After finishing the course in December 2025, I joined WebIT as a backend PHP/Laravel developer on a six-month contract.",
+  "p2": "Today I work as a freelancer, and I’m open to a role at a company, or to combining both. I write clean code, keep up with current practices, and use AI tools to speed up routine tasks.",
+  "how": "How I work",
+  "points": {
+    "clean": "Clean, readable code",
+    "current": "Up-to-date practices",
+    "ai": "AI tools for routine tasks"
+  }
+},
+"Experience": {
+  "label": "Experience",
+  "title": "My path",
+  "items": {
+    "freelance": {
+      "period": "May 2026 — Present",
+      "role": "Full-stack developer",
+      "org": "Freelance",
+      "text": "Building websites and web applications for clients."
+    },
+    "webit": {
+      "period": "Dec 2025 — May 2026",
+      "role": "Backend developer (PHP / Laravel)",
+      "org": "WebIT · six-month contract",
+      "text": "Backend development and project supervision for the Sidal Grup and Elitgran websites."
+    },
+    "course": {
+      "period": "2024 — Dec 2025",
+      "role": "Full-Stack Developer course",
+      "org": "Training + freelance",
+      "text": "Completed the course in December 2025 while taking freelance orders in parallel."
+    },
+    "start": {
+      "period": "2022",
+      "role": "Started in IT",
+      "text": "Began learning IT and web development."
     }
   }
 }

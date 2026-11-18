@@ -1,18 +1,41 @@
-export const stack = [
+export type StackItem = { name: string; note?: string };
+
+export type StackGroup = {
+  key: "frontend" | "backend" | "databases" | "stacks";
+  items: StackItem[];
+};
+
+export const stackGroups: StackGroup[] = [
   {
     key: "frontend",
-    items: ["React", "JavaScript", "HTML5", "CSS3", "Tailwind CSS"],
+    items: [
+      { name: "React" },
+      { name: "JavaScript" },
+      { name: "HTML5 / CSS3" },
+      { name: "Tailwind CSS" },
+      { name: "Alpine.js" },
+      { name: "Vite" },
+      { name: "Next.js" },
+    ],
   },
   {
     key: "backend",
-    items: ["PHP", "Laravel", "Node.js", "Express"],
+    items: [
+      { name: "PHP" },
+      { name: "Laravel" },
+      { name: "Node.js" },
+      { name: "Express" },
+    ],
   },
   {
     key: "databases",
-    items: ["MySQL", "MongoDB"],
+    items: [{ name: "MySQL" }, { name: "MongoDB" }],
   },
   {
-    key: "other",
-    items: ["MERN", "TALL", "i18next", "Vercel", "Git", "Vite", "React Router"],
+    key: "stacks",
+    items: [
+      { name: "MERN", note: "MongoDB · Express · React · Node.js" },
+      { name: "TALL", note: "Tailwind · Alpine.js · Laravel · Livewire" },
+    ],
   },
-] as const;
+];

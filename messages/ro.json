@@ -4,58 +4,110 @@
     "description": "Dezvoltator full-stack care creează produse web rapide și fiabile cu React, PHP și Laravel."
   },
   "Nav": {
-  "home": "Acasă",
-  "projects": "Proiecte",
-  "contact": "Contact",
-  "menu": "Meniu",
-  "skip": "Salt la conținut"
-},
-"Hero": {
-  "status": "Disponibil pentru proiecte — full-time, Chișinău, Moldova și freelance",
-  "title": "Dezvoltator full-stack care transformă ideile în produse web <accent>rapide și fiabile</accent>.",
-  "lead": "De la baza de date până la pixel — proiectez și livrez aplicații cu React, Node.js și Laravel, pe care utilizatorii le apreciază, iar afacerile le pot scala.",
-  "projects": "Vezi proiectele",
-  "contact": "Contactează-mă",
-  "roleLabel": "Rol",
-  "roleValue": "Dezvoltator full-stack",
-  "expLabel": "Experiență",
-  "expValue": "4+ ani",
-  "dbLabel": "Baze de date",
-  "cv": "Descarcă CV-ul"
-},
-"Footer": {
-  "rights": "Toate drepturile rezervate."
-},
-"Projects": {
-  "label": "Proiecte",
-  "title": "Lucrări selectate",
-  "all": "Toate proiectele",
-  "visit": "Deschide {name} într-o filă nouă",
-  "roleLabel": "Rol",
-  "kind": {
-    "freelance": "Freelance",
-    "company": "WebIT",
-    "personal": "Proiect personal"
+    "home": "Acasă",
+    "projects": "Proiecte",
+    "contact": "Contact",
+    "menu": "Meniu",
+    "skip": "Salt la conținut"
   },
-  "items": {
-    "eco-meister-haus": {
-      "summary": "Site pentru o companie de construcții din Berlin, specializată în case SIP, în patru limbi (DE, RO, EN, RU), cu pagini de servicii și consultant AI pentru vizitatori.",
-      "role": "Dezvoltare individuală"
+  "Hero": {
+    "status": "Disponibil pentru proiecte — full-time (Chișinău, Moldova) și freelance",
+    "title": "Dezvoltator full-stack care transformă ideile în produse web <accent>rapide și fiabile</accent>.",
+    "lead": "De la baza de date până la pixel — proiectez și livrez aplicații cu React, Node.js și Laravel, pe care utilizatorii le apreciază, iar afacerile le pot scala.",
+    "projects": "Vezi proiectele",
+    "contact": "Contactează-mă",
+    "roleLabel": "Rol",
+    "roleValue": "Dezvoltator full-stack",
+    "expLabel": "Experiență",
+    "expValue": "Din 2022",
+    "dbLabel": "Baze de date",
+    "cv": "Descarcă CV-ul"
+  },
+  "Footer": {
+    "rights": "Toate drepturile rezervate."
+  },
+  "Projects": {
+    "label": "Proiecte",
+    "title": "Lucrări selectate",
+    "all": "Toate proiectele",
+    "visit": "Deschide {name} într-o filă nouă",
+    "roleLabel": "Rol",
+    "kind": {
+      "freelance": "Freelance",
+      "company": "WebIT",
+      "personal": "Proiect personal"
     },
-    "bee-voyage": {
-      "summary": "Aplicație React multilingvă pentru contul de Instagram al unei agenții de turism din Chișinău: catalog de tururi, pagină „Despre noi” și formular de contact în RU, EN și RO, cu detectarea automată a limbii."
-    },
-    "sidal-grup": {
-      "summary": "Site corporativ al unei companii de distribuție din Moldova, în română, rusă și engleză.",
-      "role": "Dezvoltare backend, coordonarea proiectului"
-    },
-    "elitgran": {
-      "summary": "Catalog și liste de prețuri pentru monumente funerare din granit în Chișinău, în română și rusă.",
-      "role": "Dezvoltare backend, coordonarea proiectului"
-    },
-    "snake": {
-      "summary": "Joc Snake în browser, cu scor și record."
+    "items": {
+      "eco-meister-haus": {
+        "summary": "Site pentru o companie de construcții din Berlin, specializată în case SIP, în patru limbi (DE, RO, EN, RU), cu pagini de servicii și consultant AI pentru vizitatori.",
+        "role": "Dezvoltare individuală"
+      },
+      "bee-voyage": {
+        "summary": "Site-concept pentru agenția de turism @bee.voyage de pe Instagram, creat ca propunere: catalog de tururi, pagină „Despre noi” și formular de contact în RU, EN și RO, cu detectarea automată a limbii.",
+        "role": "Dezvoltare individuală"
+      },
+      "sidal-grup": {
+        "summary": "Site corporativ al unei companii de distribuție din Moldova, în română, rusă și engleză.",
+        "role": "Dezvoltare backend, coordonarea proiectului"
+      },
+      "elitgran": {
+        "summary": "Catalog și liste de prețuri pentru monumente funerare din granit în Chișinău, în română și rusă.",
+        "role": "Dezvoltare backend, coordonarea proiectului"
+      },
+      "snake": {
+        "summary": "Joc Snake în browser, cu scor și record."
+      }
+    }
+  },
+  "Stack": {
+    "label": "Stack",
+    "title": "Tehnologiile cu care lucrez",
+    "groups": {
+      "frontend": "Frontend",
+      "backend": "Backend",
+      "databases": "Baze de date",
+      "stacks": "Stack-uri"
+    }
+  },
+  "About": {
+    "label": "Despre",
+    "title": "Despre mine",
+    "p1": "Am intrat în IT în 2022, iar în 2024 am trecut la dezvoltarea full-stack: am început cursul de Full-Stack Developer și primele proiecte freelance. După absolvirea cursului, în decembrie 2025, m-am alăturat WebIT ca dezvoltator backend PHP/Laravel, cu un contract de șase luni.",
+    "p2": "Acum lucrez freelance și sunt deschis atât către un rol într-o companie, cât și către combinația dintre cele două. Scriu cod curat, mă țin la curent cu practicile actuale și folosesc instrumente AI pentru a accelera sarcinile de rutină.",
+    "how": "Cum lucrez",
+    "points": {
+      "clean": "Cod curat și lizibil",
+      "current": "Practici actuale",
+      "ai": "Instrumente AI pentru sarcini de rutină"
+    }
+  },
+  "Experience": {
+    "label": "Experiență",
+    "title": "Parcursul meu",
+    "items": {
+      "freelance": {
+        "period": "Mai 2026 — prezent",
+        "role": "Dezvoltator full-stack",
+        "org": "Freelance",
+        "text": "Dezvoltare de site-uri și aplicații web pentru clienți."
+      },
+      "webit": {
+        "period": "Dec. 2025 — mai 2026",
+        "role": "Dezvoltator backend (PHP / Laravel)",
+        "org": "WebIT · contract de șase luni",
+        "text": "Dezvoltare backend și coordonarea proiectelor pentru site-urile Sidal Grup și Elitgran."
+      },
+      "course": {
+        "period": "2024 — dec. 2025",
+        "role": "Curs Full-Stack Developer",
+        "org": "Studii + freelance",
+        "text": "Am absolvit cursul în decembrie 2025, în paralel luând comenzi freelance."
+      },
+      "start": {
+        "period": "2022",
+        "role": "Începutul în IT",
+        "text": "Am început să învăț IT și dezvoltare web."
+      }
     }
   }
-}
 }
