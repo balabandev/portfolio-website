@@ -109,5 +109,9 @@
         "text": "Am început să învăț IT și dezvoltare web."
       }
     }
-  }
+  },
+  "ProjectsPage": {
+  "label": "Proiecte",
+  "title": "Proiecte"
+}
 }

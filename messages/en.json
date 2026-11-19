@@ -11,7 +11,7 @@
   "skip": "Skip to content"
 },
 "Hero": {
-  "status": "Available for work — full-time, Chișinău, Moldova & freelance",
+  "status": "Available for work — full-time (Chișinău, Moldova) and freelance",
   "title": "Full-stack developer who turns ideas into <accent>fast, reliable</accent> web products.",
   "lead": "From database to pixel — I build and ship React, Node.js and Laravel apps that users enjoy and businesses can scale.",
   "projects": "View projects",
@@ -109,5 +109,9 @@
       "text": "Began learning IT and web development."
     }
   }
+},
+"ProjectsPage": {
+  "label": "Projects",
+  "title": "Projects"
 }
 }
