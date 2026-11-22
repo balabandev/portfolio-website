@@ -113,5 +113,18 @@
 "ProjectsPage": {
   "label": "Projects",
   "title": "Projects"
+},
+"ContactPage": {
+  "label": "Contact",
+  "title": "Let’s talk",
+  "lead": "Open to full-time roles and freelance projects. Write to me by email or Telegram.",
+  "copy": "Copy",
+  "copied": "Copied",
+  "details": "Details",
+  "locationLabel": "Location",
+  "locationValue": "Chișinău, Moldova",
+  "availabilityLabel": "Availability",
+  "availabilityValue": "Full-time and freelance",
+  "cv": "Download CV"
 }
 }

@@ -113,5 +113,18 @@
   "ProjectsPage": {
   "label": "Проекты",
   "title": "Проекты"
+},
+"ContactPage": {
+  "label": "Контакты",
+  "title": "Давайте поговорим",
+  "lead": "Открыт к полной занятости и фриланс-проектам. Напишите мне на почту или в Telegram.",
+  "copy": "Копировать",
+  "copied": "Скопировано",
+  "details": "Детали",
+  "locationLabel": "Город",
+  "locationValue": "Кишинёв, Молдова",
+  "availabilityLabel": "Доступность",
+  "availabilityValue": "Найм и фриланс",
+  "cv": "Скачать резюме"
 }
 }
