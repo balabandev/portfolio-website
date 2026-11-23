@@ -3,6 +3,7 @@ import { ArrowUpRight, Download } from "lucide-react";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { CopyButton } from "@/components/ui/CopyButton";
 import { cvHref, site } from "@/data/site";
+import { buildMetadata } from "@/lib/seo";
 
 type Props = { params: Promise<{ locale: string }> };
 
@@ -10,7 +11,12 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "ContactPage" });
 
-  return { title: t("label"), description: t("lead") };
+  return buildMetadata({
+    locale,
+    path: "/contact",
+    title: t("label"),
+    description: t("lead"),
+  });
 }
 
 const bare = (url: string) => url.replace(/^https?:\/\/(www\.)?/, "");

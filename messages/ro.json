@@ -126,5 +126,10 @@
   "availabilityLabel": "Disponibilitate",
   "availabilityValue": "Full-time și freelance",
   "cv": "Descarcă CV-ul"
+},
+"NotFound": {
+  "title": "Pagina nu a fost găsită",
+  "text": "Această pagină nu există sau a fost mutată.",
+  "back": "Înapoi acasă"
 }
 }

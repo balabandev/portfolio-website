@@ -8,6 +8,7 @@ import { site } from "@/data/site";
 import "../globals.css";
 import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
+import { siteUrl } from "@/lib/seo";
 
 const manrope = Manrope({
   subsets: ["latin", "latin-ext", "cyrillic"],
@@ -32,16 +33,18 @@ export function generateStaticParams() {
 
 export async function generateMetadata({
   params,
-}: Pick<Props, "params">): Promise<Metadata> {
+  }: Pick<Props, "params">): Promise<Metadata> {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "Meta" });
 
   return {
-    title: {
-      default: `${site.name} — ${t("title")}`,
-      template: `%s — ${site.name}`,
-    },
-    description: t("description"),
+  metadataBase: new URL(siteUrl),
+  title: {
+    default: `${site.name} — ${t("title")}`,
+    template: `%s — ${site.name}`,
+  },
+  description: t("description"),
+  twitter: { card: "summary_large_image" },
   };
 }
 

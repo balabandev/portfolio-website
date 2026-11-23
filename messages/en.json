@@ -126,5 +126,10 @@
   "availabilityLabel": "Availability",
   "availabilityValue": "Full-time and freelance",
   "cv": "Download CV"
+},
+"NotFound": {
+  "title": "Page not found",
+  "text": "This page doesn’t exist or has been moved.",
+  "back": "Back to home"
 }
 }

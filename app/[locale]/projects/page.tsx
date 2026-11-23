@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { ProjectCard } from "@/components/ui/ProjectCard";
 import { projects } from "@/data/projects";
+import { buildMetadata } from "@/lib/seo";
 
 type Props = { params: Promise<{ locale: string }> };
 
@@ -9,7 +10,12 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "ProjectsPage" });
 
-  return { title: t("title"), description: t("lead") };
+  return buildMetadata({
+    locale,
+    path: "/projects",
+    title: t("title"),
+    description: t("lead"),
+  });
 }
 
 export default async function ProjectsPage({ params }: Props) {
