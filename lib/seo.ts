@@ -39,10 +39,10 @@ export function buildMetadata({
     alternates: { canonical: `/${locale}${path}`, languages },
     openGraph: {
       type: "website",
-      siteName: site.name,
+      siteName: site.brand,
       locale: ogLocales[locale],
       url: `/${locale}${path}`,
-      title: title ? `${title} — ${site.name}` : site.name,
+      title: title ? `${title} — ${site.brand}` : `${site.brand} — ${site.name}`,
       description,
     },
   };

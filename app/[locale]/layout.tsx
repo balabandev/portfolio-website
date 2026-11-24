@@ -40,8 +40,8 @@ export async function generateMetadata({
   return {
   metadataBase: new URL(siteUrl),
   title: {
-    default: `${site.name} — ${t("title")}`,
-    template: `%s — ${site.name}`,
+    default: `${site.brand} — ${site.name}, ${t("title")}`,
+    template: `%s — ${site.brand}`,
   },
   description: t("description"),
   twitter: { card: "summary_large_image" },
@@ -62,7 +62,7 @@ export default async function LocaleLayout({ children, params }: Props) {
       <NextIntlClientProvider>
         <a
           href="#main"
-          className="sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-[60] focus:rounded-md focus:bg-accent focus:px-4 focus:py-2 focus:text-sm focus:font-medium focus:text-accent-fg"
+          className="sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-60 focus:rounded-md focus:bg-accent focus:px-4 focus:py-2 focus:text-sm focus:font-medium focus:text-accent-fg"
         >
           {tNav("skip")}
         </a>

@@ -13,7 +13,7 @@ export async function ProjectCard({ project }: { project: Project }) {
 
   return (
     <article className="group relative flex flex-col overflow-hidden rounded-lg border border-line bg-surface transition-colors hover:border-line-strong">
-      <div className="relative aspect-[16/10] overflow-hidden border-b border-line bg-surface-2">
+      <div className="relative aspect-16/10 overflow-hidden border-b border-line bg-surface-2">
         {image ? (
           <Image
             src={image}

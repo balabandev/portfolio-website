@@ -21,7 +21,8 @@
     "expLabel": "Experiență",
     "expValue": "Din 2022",
     "dbLabel": "Baze de date",
-    "cv": "Descarcă CV-ul"
+    "cv": "Descarcă CV-ul",
+    "nameLabel": "Nume"
   },
   "Footer": {
     "rights": "Toate drepturile rezervate."

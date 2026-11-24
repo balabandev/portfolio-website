@@ -1,5 +1,6 @@
 export const site = {
     name: "Artyom Balaban",
+    brand: "BalabanDev",
     handle: "balabandev",
     links: {
         github: "https://github.com/balabandev",

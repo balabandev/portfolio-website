@@ -1,13 +1,15 @@
 import { ArrowRight, Download } from "lucide-react";
 import { getLocale, getTranslations } from "next-intl/server";
 import { ButtonLink } from "@/components/ui/Button";
-import { cvHref } from "@/data/site";
+import { cvHref, site } from "@/data/site";
 
 export async function Hero() {
   const t = await getTranslations("Hero");
   const locale = await getLocale();
 
   const spec = [
+    { label: t("nameLabel"), value: site.name },
+    { label: t("roleLabel"), value: t("roleValue") },
     { label: t("roleLabel"), value: t("roleValue") },
     { label: t("expLabel"), value: t("expValue") },
     { label: "Frontend", value: "HTML5, CSS3, JavaScript, React" },
@@ -56,7 +58,7 @@ export async function Hero() {
             >
               <Download size={16} aria-hidden />
               {t("cv")}
-              <span className="eyebrow !text-faint">PDF</span>
+              <span className="eyebrow text-faint!">PDF</span>
             </a>
           </div>
         </div>

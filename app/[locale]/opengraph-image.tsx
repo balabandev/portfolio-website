@@ -1,7 +1,7 @@
 import { ImageResponse } from "next/og";
 import { site } from "@/data/site";
 
-export const alt = `${site.name} — Full-stack developer`;
+export const alt = `${site.brand} — ${site.name}, Full-stack developer`;
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
 
@@ -20,17 +20,9 @@ export default function OpengraphImage() {
           padding: 80,
         }}
       >
-        <div
-          style={{
-            display: "flex",
-            alignItems: "center",
-            gap: 16,
-            fontSize: 28,
-            color: "#9aa0a6",
-          }}
-        >
-          <div style={{ width: 20, height: 20, background: "#e8a838" }} />
-          {site.handle}
+        <div style={{ display: "flex", fontSize: 36, fontWeight: 700 }}>
+          <span>Balaban</span>
+          <span style={{ color: "#e8a838" }}>Dev</span>
         </div>
 
         <div style={{ display: "flex", flexDirection: "column" }}>

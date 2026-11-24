@@ -15,12 +15,8 @@ export async function Header() {
   return (
     <header className="sticky top-0 z-50 border-b border-line bg-bg">
       <div className="wrap flex h-16 items-center justify-between">
-        <Link
-          href="/"
-          className="flex items-center gap-2.5 font-medium tracking-tight"
-        >
-          <span aria-hidden className="size-2 rounded-[1px] bg-accent" />
-          {site.name}
+        <Link href="/" className="text-lg font-semibold tracking-tight">
+          Balaban<span className="text-accent">Dev</span>
         </Link>
         <HeaderNav items={items} menuLabel={t("menu")} />
       </div>

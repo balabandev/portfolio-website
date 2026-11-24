@@ -21,7 +21,8 @@
   "expLabel": "Experience",
   "expValue": "Since 2022",
   "dbLabel": "Databases",
-  "cv": "Download CV"
+  "cv": "Download CV",
+  "nameLabel": "Name"
 },
 "Footer": {
   "rights": "All rights reserved."

@@ -135,7 +135,7 @@ export default async function ContactPage({ params }: Props) {
           >
             <Download size={16} aria-hidden />
             {t("cv")}
-            <span className="eyebrow !text-faint">PDF</span>
+            <span className="eyebrow text-faint!">PDF</span>
           </a>
         </aside>
       </div>
