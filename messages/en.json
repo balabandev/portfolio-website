@@ -4,133 +4,134 @@
     "description": "Full-stack developer building fast, reliable web products with React, PHP and Laravel."
   },
   "Nav": {
-  "home": "Home",
-  "projects": "Projects",
-  "contact": "Contact",
-  "menu": "Menu",
-  "skip": "Skip to content"
-},
-"Hero": {
-  "status": "Available for work — full-time (Chișinău, Moldova) and freelance",
-  "title": "Full-stack developer who turns ideas into <accent>fast, reliable</accent> web products.",
-  "lead": "From database to pixel — I build and ship React, Node.js and Laravel apps that users enjoy and businesses can scale.",
-  "projects": "View projects",
-  "contact": "Get in touch",
-  "roleLabel": "Role",
-  "roleValue": "Full-stack developer",
-  "expLabel": "Experience",
-  "expValue": "Since 2022",
-  "dbLabel": "Databases",
-  "cv": "Download CV",
-  "nameLabel": "Name"
-},
-"Footer": {
-  "rights": "All rights reserved."
-},
-"Projects": {
-  "label": "Projects",
-  "title": "Selected work",
-  "all": "All projects",
-  "visit": "Open {name} in a new tab",
-  "roleLabel": "Role",
-  "kind": {
-    "freelance": "Freelance",
-    "company": "WebIT",
-    "personal": "Personal project"
+    "home": "Home",
+    "projects": "Projects",
+    "contact": "Contact",
+    "menu": "Menu",
+    "skip": "Skip to content"
   },
-  "items": {
-    "eco-meister-haus": {
-      "summary": "Website for a SIP-house builder in Berlin in four languages (DE, RO, EN, RU), with service pages and an AI consultant for visitors.",
-      "role": "Solo development"
+  "Hero": {
+    "status": "Available for work — full-time (Chișinău, Moldova) and freelance",
+    "title": "Full-stack developer who turns ideas into <accent>fast, reliable</accent> web products.",
+    "lead": "From database to pixel — I build and ship React, Node.js and Laravel apps that users enjoy and businesses can scale.",
+    "projects": "View projects",
+    "contact": "Get in touch",
+    "nameLabel": "Name",
+    "roleLabel": "Role",
+    "roleValue": "Full-stack developer",
+    "expLabel": "Experience",
+    "expValue": "Since 2022",
+    "dbLabel": "Databases",
+    "cv": "Download CV"
+  },
+  "Footer": {
+    "rights": "All rights reserved."
+  },
+  "Projects": {
+    "label": "Projects",
+    "title": "Selected work",
+    "all": "All projects",
+    "visit": "Open {name} in a new tab",
+    "roleLabel": "Role",
+    "kind": {
+      "freelance": "Freelance",
+      "company": "WebIT",
+      "personal": "Personal project"
     },
-    "bee-voyage": {
-      "summary": "Concept website for the Instagram travel agency @bee.voyage, built as a proposal: tour catalog, about page and contact form in RU, EN and RO with automatic language detection.",
-      "role": "Solo development"
-    },
-    "sidal-grup": {
-      "summary": "Corporate website of a distribution company in Moldova in Romanian, Russian and English.",
-      "role": "Backend development, project supervision"
-    },
-    "elitgran": {
-      "summary": "Catalog and price lists for granite memorials in Chișinău, in Romanian and Russian.",
-      "role": "Backend development, project supervision"
-    },
-    "snake": {
-      "summary": "Browser Snake game with score and high-score tracking."
+    "items": {
+      "eco-meister-haus": {
+        "summary": "Website for a SIP-house builder in Berlin in four languages (DE, RO, EN, RU), with service pages and an AI consultant for visitors.",
+        "role": "Solo development"
+      },
+      "bee-voyage": {
+        "summary": "Concept website for the Instagram travel agency @bee.voyage, built as a proposal: tour catalog, about page and contact form in RU, EN and RO with automatic language detection.",
+        "role": "Solo development"
+      },
+      "sidal-grup": {
+        "summary": "Corporate website of a distribution company in Moldova in Romanian, Russian and English.",
+        "role": "Backend PHP/Laravel developer, project supervision"
+      },
+      "elitgran": {
+        "summary": "Catalog and price lists for granite memorials in Chișinău, in Romanian and Russian.",
+        "role": "Backend PHP/Laravel developer, project supervision"
+      },
+      "snake": {
+        "summary": "Browser Snake game with score and high-score tracking."
+      }
     }
-  }
-},
-"Stack": {
-  "label": "Stack",
-  "title": "Technologies I work with",
-  "groups": {
-    "frontend": "Frontend",
-    "backend": "Backend",
-    "databases": "Databases",
-    "stacks": "Stacks"
-  }
-},
-"About": {
-  "label": "About",
-  "title": "About me",
-  "p1": "I got into IT in 2022 and moved into full-stack development in 2024, when I started a Full-Stack Developer course and took my first freelance projects. After finishing the course in December 2025, I joined WebIT as a backend PHP/Laravel developer on a six-month contract.",
-  "p2": "Today I work as a freelancer, and I’m open to a role at a company, or to combining both. I write clean code, keep up with current practices, and use AI tools to speed up routine tasks.",
-  "how": "How I work",
-  "points": {
-    "clean": "Clean, readable code",
-    "current": "Up-to-date practices",
-    "ai": "AI tools for routine tasks"
-  }
-},
-"Experience": {
-  "label": "Experience",
-  "title": "My path",
-  "items": {
-    "freelance": {
-      "period": "May 2026 — Present",
-      "role": "Full-stack developer",
-      "org": "Freelance",
-      "text": "Building websites and web applications for clients."
-    },
-    "webit": {
-      "period": "Dec 2025 — May 2026",
-      "role": "Backend developer (PHP / Laravel)",
-      "org": "WebIT · six-month contract",
-      "text": "Backend development and project supervision for the Sidal Grup and Elitgran websites."
-    },
-    "course": {
-      "period": "2024 — Dec 2025",
-      "role": "Full-Stack Developer course",
-      "org": "Training + freelance",
-      "text": "Completed the course in December 2025 while taking freelance orders in parallel."
-    },
-    "start": {
-      "period": "2022",
-      "role": "Started in IT",
-      "text": "Began learning IT and web development."
+  },
+  "ProjectsPage": {
+    "label": "Projects",
+    "title": "Projects",
+    "lead": "Client work, projects from my time at WebIT and personal builds. Each card opens the live site."
+  },
+  "ContactPage": {
+    "label": "Contact",
+    "title": "Let’s talk",
+    "lead": "Open to full-time roles and freelance projects. Write to me by email or Telegram.",
+    "copy": "Copy",
+    "copied": "Copied",
+    "details": "Details",
+    "locationLabel": "Location",
+    "locationValue": "Chișinău, Moldova",
+    "availabilityLabel": "Availability",
+    "availabilityValue": "Full-time and freelance",
+    "cv": "Download CV"
+  },
+  "Stack": {
+    "label": "Stack",
+    "title": "Technologies I work with",
+    "groups": {
+      "frontend": "Frontend",
+      "backend": "Backend",
+      "databases": "Databases",
+      "stacks": "Stacks"
     }
+  },
+  "About": {
+    "label": "About",
+    "title": "About me",
+    "p1": "I got into IT in 2022 and moved into full-stack development in 2024, when I started a Full-Stack Developer course and took my first freelance projects. After finishing the course in December 2025, I joined WebIT as a backend PHP/Laravel developer on a six-month contract.",
+    "p2": "Today I work as a freelancer, and I’m open to a role at a company, or to combining both. I write clean code, keep up with current practices, and use AI tools to speed up routine tasks.",
+    "how": "How I work",
+    "points": {
+      "clean": "Clean, readable code",
+      "current": "Up-to-date practices",
+      "ai": "AI tools for routine tasks"
+    }
+  },
+  "Experience": {
+    "label": "Experience",
+    "title": "My path",
+    "items": {
+      "freelance": {
+        "period": "May 2026 — Present",
+        "role": "Full-stack developer",
+        "org": "Freelance",
+        "text": "Building websites and web applications for clients."
+      },
+      "webit": {
+        "period": "Dec 2025 — May 2026",
+        "role": "Backend developer (PHP / Laravel)",
+        "org": "WebIT · six-month contract",
+        "text": "Backend development and project supervision for the Sidal Grup and Elitgran websites."
+      },
+      "course": {
+        "period": "2024 — Dec 2025",
+        "role": "Full-Stack Developer course",
+        "org": "Training + freelance",
+        "text": "Completed the course in December 2025 while taking freelance orders in parallel."
+      },
+      "start": {
+        "period": "2022",
+        "role": "Started in IT",
+        "text": "Began learning IT and web development."
+      }
+    }
+  },
+  "NotFound": {
+    "title": "Page not found",
+    "text": "This page doesn’t exist or has been moved.",
+    "back": "Back to home"
   }
-},
-"ProjectsPage": {
-  "label": "Projects",
-  "title": "Projects"
-},
-"ContactPage": {
-  "label": "Contact",
-  "title": "Let’s talk",
-  "lead": "Open to full-time roles and freelance projects. Write to me by email or Telegram.",
-  "copy": "Copy",
-  "copied": "Copied",
-  "details": "Details",
-  "locationLabel": "Location",
-  "locationValue": "Chișinău, Moldova",
-  "availabilityLabel": "Availability",
-  "availabilityValue": "Full-time and freelance",
-  "cv": "Download CV"
-},
-"NotFound": {
-  "title": "Page not found",
-  "text": "This page doesn’t exist or has been moved.",
-  "back": "Back to home"
-}
 }

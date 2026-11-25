@@ -57,7 +57,9 @@ export default async function LocaleLayout({ children, params }: Props) {
   const tNav = await getTranslations({ locale, namespace: "Nav" });
 
   return (
-  <html lang={locale} className={`${manrope.variable} ${jetbrains.variable}`}>
+  <html lang={locale} className={`${manrope.variable} ${jetbrains.variable}`}
+    data-scroll-behavior="smooth"
+  >
     <body className="flex min-h-dvh flex-col">
       <NextIntlClientProvider>
         <a

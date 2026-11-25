@@ -8,14 +8,13 @@ export async function Hero() {
   const locale = await getLocale();
 
   const spec = [
-    { label: t("nameLabel"), value: site.name },
-    { label: t("roleLabel"), value: t("roleValue") },
-    { label: t("roleLabel"), value: t("roleValue") },
-    { label: t("expLabel"), value: t("expValue") },
-    { label: "Frontend", value: "HTML5, CSS3, JavaScript, React" },
-    { label: "Backend", value: "Node.js, PHP, Laravel (TALL)" },
-    { label: t("dbLabel"), value: "MongoDB, MySQL" },
-  ];
+    { id: "name", label: t("nameLabel"), value: site.name },
+    { id: "role", label: t("roleLabel"), value: t("roleValue") },
+    { id: "exp", label: t("expLabel"), value: t("expValue") },
+    { id: "frontend", label: "Frontend", value: "React" },
+    { id: "backend", label: "Backend", value: "Node.js, PHP, Laravel (TALL)" },
+    { id: "db", label: t("dbLabel"), value: "MongoDB, MySQL" },
+    ];
 
   return (
     <section className="wrap pb-20 pt-16 md:pb-28 md:pt-24">
@@ -64,9 +63,9 @@ export async function Hero() {
         </div>
 
         <dl className="self-end rounded-lg border border-line bg-surface md:col-span-5">
-          {spec.map(({ label, value }) => (
+          {spec.map(({ id, label, value }) => (
             <div
-              key={label}
+              key={id}
               className="flex items-baseline justify-between gap-6 border-b border-line px-5 py-3.5 last:border-b-0"
             >
               <dt className="eyebrow shrink-0">{label}</dt>

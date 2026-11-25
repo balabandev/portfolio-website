@@ -16,13 +16,13 @@
     "lead": "De la baza de date până la pixel — proiectez și livrez aplicații cu React, Node.js și Laravel, pe care utilizatorii le apreciază, iar afacerile le pot scala.",
     "projects": "Vezi proiectele",
     "contact": "Contactează-mă",
+    "nameLabel": "Nume",
     "roleLabel": "Rol",
     "roleValue": "Dezvoltator full-stack",
     "expLabel": "Experiență",
     "expValue": "Din 2022",
     "dbLabel": "Baze de date",
-    "cv": "Descarcă CV-ul",
-    "nameLabel": "Nume"
+    "cv": "Descarcă CV-ul"
   },
   "Footer": {
     "rights": "Toate drepturile rezervate."
@@ -49,16 +49,34 @@
       },
       "sidal-grup": {
         "summary": "Site corporativ al unei companii de distribuție din Moldova, în română, rusă și engleză.",
-        "role": "Dezvoltare backend, coordonarea proiectului"
+        "role": "Dezvoltator backend PHP/Laravel, coordonarea proiectului"
       },
       "elitgran": {
         "summary": "Catalog și liste de prețuri pentru monumente funerare din granit în Chișinău, în română și rusă.",
-        "role": "Dezvoltare backend, coordonarea proiectului"
+        "role": "Dezvoltator backend PHP/Laravel, coordonarea proiectului"
       },
       "snake": {
         "summary": "Joc Snake în browser, cu scor și record."
       }
     }
+  },
+  "ProjectsPage": {
+    "label": "Proiecte",
+    "title": "Proiecte",
+    "lead": "Lucrări pentru clienți, proiecte din perioada WebIT și proiecte personale. Fiecare card deschide site-ul live."
+  },
+  "ContactPage": {
+    "label": "Contact",
+    "title": "Hai să vorbim",
+    "lead": "Sunt deschis pentru roluri full-time și proiecte freelance. Scrie-mi pe email sau pe Telegram.",
+    "copy": "Copiază",
+    "copied": "Copiat",
+    "details": "Detalii",
+    "locationLabel": "Locație",
+    "locationValue": "Chișinău, Moldova",
+    "availabilityLabel": "Disponibilitate",
+    "availabilityValue": "Full-time și freelance",
+    "cv": "Descarcă CV-ul"
   },
   "Stack": {
     "label": "Stack",
@@ -111,26 +129,9 @@
       }
     }
   },
-  "ProjectsPage": {
-  "label": "Proiecte",
-  "title": "Proiecte"
-},
-"ContactPage": {
-  "label": "Contact",
-  "title": "Hai să vorbim",
-  "lead": "Sunt deschis pentru roluri full-time și proiecte freelance. Scrie-mi pe email sau pe Telegram.",
-  "copy": "Copiază",
-  "copied": "Copiat",
-  "details": "Detalii",
-  "locationLabel": "Locație",
-  "locationValue": "Chișinău, Moldova",
-  "availabilityLabel": "Disponibilitate",
-  "availabilityValue": "Full-time și freelance",
-  "cv": "Descarcă CV-ul"
-},
-"NotFound": {
-  "title": "Pagina nu a fost găsită",
-  "text": "Această pagină nu există sau a fost mutată.",
-  "back": "Înapoi acasă"
-}
+  "NotFound": {
+    "title": "Pagina nu a fost găsită",
+    "text": "Această pagină nu există sau a fost mutată.",
+    "back": "Înapoi acasă"
+  }
 }
